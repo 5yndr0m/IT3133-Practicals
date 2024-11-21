@@ -5,12 +5,12 @@ This practical demonstrates **state management** and **form handling** using Rea
 2. Manages a list of students dynamically.
 
 Key Concepts:
-- **React State**: 
+1. **React State**: 
   - `useState` is used to manage both the current `student` object and the `students` array.
   - The `setStudent` function updates individual fields of the `student` object.
-- **Controlled Components**: Form fields (`<input>`) are controlled by the React state to ensure data flow is unidirectional.
-- **Dynamic Rendering**: The list of `students` is rendered dynamically using the `map()` function.
-- **Event Handling**: 
+2. **Controlled Components**: Form fields (`<input>`) are controlled by the React state to ensure data flow is unidirectional.
+3. **Dynamic Rendering**: The list of `students` is rendered dynamically using the `map()` function.
+4. **Event Handling**: 
   - The `onChange` event updates the `student` state.
   - The `onClick` event adds the current `student` to the `students` array.
 
@@ -24,3 +24,4 @@ Features:
 
 Output:
 ![Output_Nov_05](../../../ScreenShots/Nov_05.png)
+**Figure 1:**
