@@ -12,11 +12,12 @@ function App() {
   const darkTheme ={
     backgroundColor: "#282c34",
     color: 'white',
-    fontSize:fsize+"px"
+    fontSize:fsize+"px",
+    height: 100+"vh"
   }
   return (
     <div className="App">
-      <header className="App-header" style={theme?lightTheme:darkTheme}>
+      <div className="App-header" style={theme?lightTheme:darkTheme}>
         <Calculator/>
         <hr></hr>
         <button onClick={()=>{setTheme(!theme)}}>{theme?"Go Dark":"Go Light"}</button>
@@ -24,7 +25,7 @@ function App() {
         Font Size:<input type='range' 
         name="fontchg" min='10' max='20' 
         step='1' value={fsize} onChange={(e)=>{setFsize(e.target.value); console.log(fsize)}}/>
-      </header>
+      </div>
     </div>
   );
 }
