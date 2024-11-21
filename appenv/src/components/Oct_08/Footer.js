@@ -1,4 +1,4 @@
-import '../../assets/Oct_10/css/main.css'
+import '../../assets/Oct_08/css/main.css'
 export default function Footer(){
     return(
         <div className='footer'>

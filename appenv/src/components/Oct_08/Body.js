@@ -1,4 +1,4 @@
-import {people} from '../../assets/Oct_10/data';
+import {people} from '../../assets/Oct_08/data';
 import People from './People';
 export default function Body(){
     return(
