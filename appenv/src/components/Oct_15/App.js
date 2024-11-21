@@ -1,8 +1,8 @@
 import { Col, Container, Row } from 'react-bootstrap';
 import './App.css';
-import Books from './componenets/Oct_15/Books';
-import Mycont from './componenets/Day3_15_10/Mycont';
-import Student from './componenets/Oct_15/Student';
+import Books from './components/Oct_15/Books';
+import Mycont from './components/Day3_15_10/Mycont';
+import Student from './components/Oct_15/Student';
 
 function App() {
   const sum=(num1,num2)=>{

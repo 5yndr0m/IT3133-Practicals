@@ -1,4 +1,4 @@
-import StudentInfo from './componenets/Nov_05/StudentInfo';
+import StudentInfo from './components/Nov_05/StudentInfo';
 
 function App() {
   return (

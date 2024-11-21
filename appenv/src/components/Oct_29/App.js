@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Calculator from './componenets/Oct_29/Calculator';
+import Calculator from './components/Oct_29/Calculator';
 
 function App() {
   const [theme,setTheme]=useState(true);

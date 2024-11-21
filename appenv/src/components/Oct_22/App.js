@@ -1,6 +1,6 @@
 import './App.css';
 import { useState } from 'react';
-import Artist from './componenets/Oct_22/Artist';
+import Artist from './components/Oct_22/Artist';
 function showMsg(){
   alert("Hi, This is an Alert!!")
 }
