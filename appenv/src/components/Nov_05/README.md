@@ -23,4 +23,4 @@ Features:
 - Display of the list of added students below the form.
 
 Output:
-![Output_Nov_05](../../../ScreenShots/image.jpg)
+![Output_Nov_05](../../../ScreenShots/Nov_05.png)
