@@ -37,6 +37,19 @@ IT3133-Practicals/
 └── README.md
 ```
 
+## 📑 Practical Sessions
+
+| Date | Topic | README Link |
+|------|--------|------------|
+| 08 Oct 2024 | React Components | [View Details](./appenv/src/components/Oct_08/README.md) |
+| 15 Oct 2024 | React Components | [View Details](./appenv/src/components/Oct_15/README.md) |
+| 22 Oct 2024 | State Management | [View Details](./appenv/src/components/Oct_22/README.md) |
+| 29 Oct 2024 | Dynamic Themeing | [View Details](./appenv/src/components/Oct_29/README.md) |
+| 05 Nov 2024 | Dynamic Data Handling | [View Details](./appenv/src/components/Nov_05/README.md) |
+| 19 Nov 2024 | Child to Parent Communication | [View Details](./appenv/src/components/Nov_19/README.md) |
+
+
+
 ## 💡 Features
 
 - Date-wise organized practical assignments
