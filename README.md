@@ -47,6 +47,7 @@ IT3133-Practicals/
 | 29 Oct 2024 | Dynamic Themeing | [View Details](./appenv/src/components/Oct_29/README.md) |
 | 05 Nov 2024 | Dynamic Data Handling | [View Details](./appenv/src/components/Nov_05/README.md) |
 | 19 Nov 2024 | Child to Parent Communication | [View Details](./appenv/src/components/Nov_19/README.md) |
+| 27 Nov 2024 | useNavigate | [View Details](./appenv/src/components/Nov_26/README.md) |
 
 
 
