@@ -51,15 +51,15 @@ This practical demonstrates the usage of **React Router** for navigation and **`
 ![Login Page](../../../ScreenShots/Nov_26_1.png)
 **Figure 1**
 
-![Login Page](../../../ScreenShots/Nov_26_2.png)
+![Login Page Error](../../../ScreenShots/Nov_26_2.png)
 **Figure 2**
 
-![Login Page](../../../ScreenShots/Nov_26_3.png)
+![Home Page](../../../ScreenShots/Nov_26_3.png)
 **Figure 3**
 
-![Login Page](../../../ScreenShots/Nov_26_4.png)
+![About Us Page](../../../ScreenShots/Nov_26_4.png)
 **Figure 4**
 
-![Login Page](../../../ScreenShots/Nov_26_5.png)
+![Contact Us Page](../../../ScreenShots/Nov_26_5.png)
 **Figure 5**
 
