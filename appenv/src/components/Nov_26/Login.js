@@ -1,12 +1,8 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "../../App.css";
-
-const users = [
-  { email: "test@example.com", password: "12345" },
-  { email: "user1@example.com", password: "password1" },
-  { email: "admin@example.com", password: "admin123" },
-];
+import "../../assets/Nov_26/styless.css";
+import users from "../../assets/Nov_26/data.js";
 
 export default function Login() {
   const [credentials, setCredentials] = useState({
@@ -20,7 +16,7 @@ export default function Login() {
     const { name, value } = e.target;
     setCredentials((prevState) => ({
       ...prevState,
-      [name]: value, // Dynamically update either email or password
+      [name]: value,
     }));
   };
 
@@ -32,7 +28,7 @@ export default function Login() {
 
     if (user) {
       setErrorMessage(""); 
-      navigate("/"); 
+      navigate("/home"); 
     } else {
       setErrorMessage("Invalid email or password. Please try again.");
     }
@@ -41,45 +37,37 @@ export default function Login() {
   return (
     <div className="App">
       <h1>Login</h1>
-      <div style={{ maxWidth: "300px", margin: "auto" }}>
-        <label style={{ display: "block", marginBottom: "10px" }}>
+      <div className="login-container">
+        <label className="login-label">
           Email:
           <input
             type="email"
-            name="email" // Match key in credentials object
+            name="email" 
             value={credentials.email}
             onChange={handleInputChange}
             placeholder="Enter your email"
-            style={{ display: "block", width: "100%", marginTop: "5px" }}
+            className="input-style"
           />
         </label>
-        <label style={{ display: "block", marginBottom: "10px" }}>
+        <label className="login-label">
           Password:
           <input
             type="password"
-            name="password" // Match key in credentials object
+            name="password" 
             value={credentials.password}
             onChange={handleInputChange}
             placeholder="Enter your password"
-            style={{ display: "block", width: "100%", marginTop: "5px" }}
+            className="input-style"
           />
         </label>
         <button
           onClick={handleLogin}
-          style={{
-            padding: "10px 20px",
-            backgroundColor: "#007BFF",
-            color: "white",
-            border: "none",
-            borderRadius: "5px",
-            cursor: "pointer",
-            marginTop: "10px",
-          }}
+          className="login-btn"
         >
           Login
         </button>
         {errorMessage && (
-          <p style={{ color: "red", marginTop: "10px" }}>{errorMessage}</p>
+          <p className="err-msg">{errorMessage}</p>
         )}
       </div>
     </div>

@@ -99,3 +99,33 @@
   background-color: #0056b3;
 }
 
+.login-container {
+    max-width: 300px;
+    margin: auto;
+}
+
+.login-label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.input-style {
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.login-btn {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.err-msg {
+    color: red;
+    margin-top: 10px;
+}
