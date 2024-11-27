@@ -88,3 +88,14 @@
     margin: 0;
     align-items: center;
 }
+
+.App input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.App button:hover {
+  background-color: #0056b3;
+}
+
